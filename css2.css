@@ -1,0 +1,4 @@
+@charset "UTF-8";
+
+/********* public:extra.less ********/
+.p-navEl-link:before{padding-right:5px;font-family:FontAwesome}.p-navEl-link[data-nav-id="forums"]:before{content:'\f086'}.p-navEl-link[data-nav-id="members"]:before{content:'\f0c0'}.p-navEl-link[data-nav-id="discord"]:before{content:'\f130'}.p-navEl-link[data-nav-id="store"]:before{content:'\f07a'}.p-navEl-link[data-nav-id="mjstSupportTicket"]:before{content:'\f128'}
