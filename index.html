@@ -1,29 +1,28 @@
-<!DOCTYPE html>
+
+<!DOCTYPE HTML>
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Suikaware</title>
-	<meta property="og:site_name" content="Suikaware.">
-	<meta property="og:url" content="https://suika.xyz/">
-	<meta name="theme-color" content="#9f27b5">
-	<link href="favicon.ico" rel="icon" type="image/x-icon">
-	<link rel="stylesheet" href="css3.css">
-	<link rel="stylesheet" href="php.css">
-</head>
-	<body>
-		<div class="p-pageWrapper" id="top" style="vertical-align: middle;">
-
-			<div class="p-guest--message">
-				<div class="p-guest--message--inner">
-					<h1>Suikaware</h1>
-					<p></p>
-					
-					<a class="button--cta button "><span class="button-text">Register closed</span></a>
-				</div>
-			</div>
+	<head>
+		<link href='favicon.ico' rel='shortcut icon'>
+		<title>Suika</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<footer id="footer">
+				<ul class="copyright">
+					<li>Suikaware</li><li>Register closed.</li>
+				</ul>
+			</footer>
 		</div>
-
+		<script data-cfasync="false" src="email-decode.min.js"></script>
+		<script>
+			if ('addEventListener' in window) {
+				window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+				document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+			}
+		</script>
 	</body>
 </html>

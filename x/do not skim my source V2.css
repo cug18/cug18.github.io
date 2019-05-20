@@ -1,0 +1,21 @@
+body {
+     font-family: 'M PLUS 1p', Meiryo;
+     background-color: #1c1c1c;
+     color: #FFF;
+}
+a {
+text-decoration: none;
+color: #ffffff;
+background-color: #1c1c1c;
+text-decoration: none;
+}
+b {
+text-decoration: none;
+color: #ffffff;
+background-color: #1c1c1c;
+text-decoration: none;
+}
+
+a:hover {
+color: #d4d3d3;
+}
