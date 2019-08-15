@@ -1,0 +1,18 @@
+body {
+	font-family: 'M PLUS 1p', Meiryo;
+	margin: 10;
+	background-color: #1c1c1c;
+	font-size: 150%;
+	text-shadow: 4px 4px 1px black, 0px 0px 10px white;
+	color: #DDDDDD;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	border: solid 2px silver;
+}
+p{
+	font-size: 75%;
+}
